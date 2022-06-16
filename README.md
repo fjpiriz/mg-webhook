@@ -1,3 +1,6 @@
 # mg-webhook
 
-uvicorn main:app --reload --host 0.0.0.0
+```
+$ docker build -t mg-webhook:0.1
+$ docker run --rm -p8080:8080 mg-webhook:0.1
+```
